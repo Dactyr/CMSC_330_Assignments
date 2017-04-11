@@ -1,0 +1,53 @@
+Window "Nested Panels" (600, 300) Layout Flow: 
+ Button " Nested Panels "; 
+ Textfield 20;  
+ Group 
+  Radio "A"; 
+  Radio "B"; 
+  Radio "C"; 
+  Radio "D"; 
+  Radio "E"; 
+End;	
+ Panel Layout Grid (4, 3, 5, 5): 
+  Button "7"; 
+  Button "8"; 
+  Button "9"; 
+  Button "4"; 
+  Button "5"; 
+  Button "6"; 
+  Button "1"; 
+  Button "2"; 
+  Button "3"; 
+  Label ""; 
+  Button "0"; 
+ End; 
+ Panel Layout Flow: 
+  Group 
+   Radio "1"; 
+   Radio "2"; 
+   Radio "3";  
+  End; 
+  Panel Layout Grid (3, 3): 
+   Button "A"; 
+   Button "B"; 
+   Button "C"; 
+   Button "D"; 
+   Button "E"; 
+   Button "F"; 
+   Button "G"; 
+   Button "H"; 
+   Button "I"; 
+  End;
+  Panel Layout Grid (3, 3, 10, 10): 
+   Button "One"; 
+   Button "Two"; 
+   Button "Three"; 
+   Button "Four"; 
+   Button "Five"; 
+   Button "Six"; 
+   Button "Seven"; 
+   Button "Eight"; 
+   Button "Nine"; 
+  End;  
+ End; 
+End.

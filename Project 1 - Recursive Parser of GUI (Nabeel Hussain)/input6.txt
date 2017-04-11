@@ -1,0 +1,8 @@
+Window "Textfields" (300, 200) Layout Flow:
+Textfield 20;
+Textfield 15;
+Textfield 10;
+Textfield 15;
+Textfield 20;
+End.
+
